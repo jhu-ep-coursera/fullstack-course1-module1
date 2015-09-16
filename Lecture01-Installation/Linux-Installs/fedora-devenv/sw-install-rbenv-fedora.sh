@@ -101,7 +101,7 @@ sudo ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin
 phantomjs --version
 
 
-# install sablime text
+# install sublime text
 cd /tmp
 curl http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64.tar.bz2 | tar -xjf -
 sudo mv 'Sublime Text 2' /opt/SublimeText2
