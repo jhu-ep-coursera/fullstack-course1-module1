@@ -99,7 +99,7 @@ ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
 $ gem install rails -v 4.2.3
 ~~~
 Rails is installed, but we need **rbenv** to see it.
-For that, we execute the **rehash** command. It is good practice to run the **rehash** comannd any time you install a new gem that provides terminal commands.
+For that, we execute the **rehash** command. It is good practice to run the **rehash** comannd any time you install a new gem that provides terminal commands. See [here](https://github.com/sstephenson/rbenv#rbenv-rehash) for more details.
 ~~~
 $ rbenv rehash
 ~~~
