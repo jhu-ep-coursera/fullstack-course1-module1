@@ -15,6 +15,7 @@ This will trigger the operating system to prompt you to install the Mac OS comma
 
 #### Install Homebrew on Mac OS X
 These instructions assume that you have _administrative privilages_ on your Mac.
+
 1. Open a browser and navigate to the [Homebrew](http://brew.sh) website.
 2. Copy and paste the _curl_ command a a terminal prompt to install Homebrew.
 
@@ -23,12 +24,24 @@ Homebrew makes it very easy to keep everything up to date. Let's first check for
 ~~~
 $ brew update
 ~~~
-Although Apple installs a version of git along with OS X, we want to make sure we are running the latest version.
+Although Apple installs a version of **git** along with OS X, we want to make sure we are running the latest version.
+~~~
+$ git --version
+git version 2.3.2 (Apple Git-55)
+~~~
+
+Let's install **git** with Homebrew
 ~~~
 $ brew install git
 ~~~
 
-Open **.bash_profile** to edit in your favorite text editor. In this case, I will use [Sublime Text](http://www.sublimetext.com/).
+If you try again to check the version again, you will see it hasn't changed.
+~~~
+$ git --version
+git version 2.3.2 (Apple Git-55)
+~~~
+
+In order to make the change, we will have to open **.bash_profile** and edit it in your favorite text editor. In this case, I will use [Sublime Text](http://www.sublimetext.com/).
 ~~~
 $ subl ~/.bash_profile
 ~~~
