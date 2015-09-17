@@ -51,7 +51,7 @@ export GIT_HOME='/usr/local/Cellar/git/2.5.2/bin'
 ~~~
 Now add the new variable to the path.
 ~~~
-PATH=$GIT_HOME: $PATH
+PATH=$GIT_HOME:$PATH
 ~~~
 
 Now back in the terminal you need to reload the .bash_profile
