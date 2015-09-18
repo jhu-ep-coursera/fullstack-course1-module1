@@ -126,6 +126,11 @@ If everything works correctly, you see the welcome to Ruby on Rails page.
 
 Click on **About your application's environment** to verify your Ruby and Rails versions.
 
+#### Install Sublime Text 3
+1. Open a browser and navigate to the [Sublime Text](http://www.sublimetext.com/3) website.
+2. Download the OS X dmg file
+3. Click it and drag it to Applications folder
+4. Go to Spotlight and write "Sublime Text"
 
 #### Set an Environment variable
 This is needed for configuring your system for Coursera assignment submission
