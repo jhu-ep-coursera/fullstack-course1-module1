@@ -48,6 +48,8 @@ $ subl ~/.bash_profile
 Update your .bash_profile file and create a variable:
 ~~~
 export GIT_HOME='/usr/local/Cellar/git/2.5.2/bin'
+
+Note: another way to accomplish the above is to add the path on a new line to your /etc/paths file.
 ~~~
 Now add the new variable to the path.
 ~~~
