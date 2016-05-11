@@ -54,7 +54,7 @@ RUN apt-get install -y firefox xterm konsole
 #install chrome
 WORKDIR /tmp
 RUN sudo apt-get install -y libxss1 libappindicator1 libindicator7 gconf-service
-RUN sudo apt-get install -y libnspr4 libnss3
+RUN sudo apt-get install -y libnspr4 libnss3 fonts-liberation
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 RUN sudo dpkg -i google-chrome*.deb
 RUN echo export PATH='$PATH:/opt/google/chrome' >> /etc/bash.bashrc
