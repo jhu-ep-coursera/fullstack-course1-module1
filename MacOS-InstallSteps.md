@@ -130,7 +130,8 @@ Click on **About your application's environment** to verify your Ruby and Rails 
 
 #### Install PhantomJS
 ~~~
-$ brew install phantomjs
+$ brew tap homebrew/cask
+$ brew cask install phantomjs
 ~~~
 Verify that PhantomJS is now installed.
 ~~~
